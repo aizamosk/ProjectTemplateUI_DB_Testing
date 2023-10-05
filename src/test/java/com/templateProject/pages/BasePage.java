@@ -18,9 +18,8 @@ public abstract  class BasePage {
     }
 
 
-    @FindBy(linkText = "Contact Us")
+    @FindBy(xpath = "//a[.='Contact Us'][1]")
     public WebElement contactUs;
-
 
 
 }
